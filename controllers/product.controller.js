@@ -17,7 +17,7 @@ exports.getProductById = (req, res, next, id) => {
     });
 };
 
-exports.createProduct = (req, res) => {
+exports.createProduct = (req , res) => {
   let form = new formidable.IncomingForm();
   form.keepExtensions = true;
 
